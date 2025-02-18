@@ -7,6 +7,14 @@ public abstract class Estancia {
 	protected double metrosCuadrados;
 	protected int puertas;
 	protected int ventanas;
+
+	//Constructor de la clase
+	public Estancia(String nombre, double metrosCuadrados, int puertas, int ventanas) {
+		this.nombre = nombre;
+		this.metrosCuadrados = metrosCuadrados;
+		this.puertas = puertas;
+		this.ventanas = ventanas;
+	}
 	
 	//Métodos de la clase
 	public abstract int calcularMetrosCuadrados();
