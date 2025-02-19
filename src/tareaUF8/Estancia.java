@@ -16,6 +16,8 @@ public abstract class Estancia {
 		this.ventanas = ventanas;
 	}
 	
-	//Métodos de la clase
-	public abstract int calcularMetrosCuadrados();
+	public double getMetrosCuadrados() {
+		return metrosCuadrados;
+	}
+
 }
