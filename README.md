@@ -1,3 +1,4 @@
+Autores: Eduardo Utrilla y Hugo Rubio.
 # EstudioDeArquitectura
 Este programa consta de una superclase llamada Estancia de la que heredan Hall, Salón, Habitación, Baño y Cocina.
 
