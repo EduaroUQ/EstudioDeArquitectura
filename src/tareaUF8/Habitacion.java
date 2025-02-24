@@ -12,4 +12,8 @@ public class Habitacion extends Estancia {
 		this.accesoBaño = accesoBaño;
 	}
 	
+	public double getMetrosCuadrados() {
+		return metrosCuadrados;
+	}
+	
 }
